@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head >
+<body>
+    <div>
+        <h1>My feedback form</h1>
+    </div>
+    <form novalidate autocomplete="off">
+        <div>            
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>                        
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>             
+                </li>
+                <li>
+                    <label for="pw">Password:</label>
+            <input type="password" id="pw" name=""><br>
+                </li>
+            </ul>           
+        </div>
+        <div>
+            <ul>
+                <li>
+                    Plase check all the emotions that apply to you:
+                    <br>
+                    <ul type="disc">                       
+                        <li>Angry<label for="angry"></label>
+                            <input type="checkbox">
+                        <li>Sad<label for="Sad"></label>
+                            <input type="checkbox"></li></li>
+                        <li>Happy<label for="Happy"></label>
+                            <input type="checkbox"></li></li></li>
+                        <li>Ambivalent<label for="Ambivalent"></label>
+                            <input type="checkbox"></li></li></li></li>
+                    </ul>
+                </li>
+                <li>
+                    How satisfied were you with our service?
+                    <br>
+                    <ul type="disc">
+                        <li>Very satisfied<label for="Very satisfied"></label>
+                            <input type="radio"></li></li>
+                        <li>Satisfied <label for="Satisfied"></label>
+                            <input type="radio"></li>
+                        <li>Didn't care<label for="Didn't care"></label>
+                            <input type="radio"></li></li>
+                        <li>Dissatisfied<label for="Dissatisfied"></label>
+                            <input type="radio"></li></li>
+                        <li>Very dissatisfied<label for="Very dissatisfied"></label>
+                            <input type="radio"></li></li>
+                    </ul>
+                </li>
+                <li>
+                    Further comments:
+                    <label for="message"></label>
+        <textarea name="" id="message" cols="30" rows="0"></textarea>
+                </li><br>
+                <li>
+                    Bio photo:                                  
+                    <input type="Choose...">
+                    <input type="file" multiple accept="">
+                </li>
+                <li>
+                    Location visited:
+                    <label for="search"></label>
+        <input type="text" id="search" placeholder="select location"><br>        
+                </li>
+            </ul>
+        </div> 
+        <div>
+            <ul>
+                <li>
+                    <input type="submit" value="Submit">
+                </li>
+            </ul>  
+        </div>               
+    </form>     
+</body>
+</html>
